@@ -1,6 +1,6 @@
 import logging
 import asyncio
-from config.settings import TOKEN
+from config import TOKEN
 from aiogram.client.default import DefaultBotProperties
 from aiogram import Bot, Dispatcher
 from handlers import main_router

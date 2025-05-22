@@ -1,4 +1,4 @@
-from . import settings
+from settings import TOKEN
 
 
-__all__ = ['settings']
+__all__ = ['TOKEN']
